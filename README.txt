@@ -15,6 +15,16 @@ directory in ``js.d3``) are published to some URL. This
 library also packages up a minified version of `D3.js`_.
 
 
+Usage
+-----
+
+You can import ``d3`` from ``js.d3`` and ``need`` it where you want these
+resources to be included on a page::
+
+  >>> from js.d3 import d3
+  >>> d3.need()
+
+
 Updating this package
 ---------------------
 
