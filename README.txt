@@ -18,6 +18,13 @@ library also packages up a minified version of `D3.js`_.
 Usage
 -----
 
+.. note::
+
+   At present, D3 does not support any browser that lacks SVG support. This
+   means that Internet Explorer 8 and below will produce errors if the D3 
+   library is loaded.  To work around this, ``js.d3`` includes a conditional 
+   comment to restrict D3 to Internet Explorer 9 or above.
+
 You can import ``d3`` from ``js.d3`` and ``need`` it where you want these
 resources to be included on a page::
 
