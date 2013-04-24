@@ -36,12 +36,12 @@ Updating this package
 ---------------------
 
 In order to obtain a newer version of this library, do the following,
-editing the version name (eg ``3.0.5``) accordingly::
+editing the version name (eg ``3.1.5``) accordingly::
 
     pushd js/d3/resources
-    wget https://github.com/mbostock/d3/raw/v3.0.5/d3.js -O d3.js
-    wget https://github.com/mbostock/d3/raw/v3.0.5/d3.min.js -O d3.min.js
+    wget https://github.com/mbostock/d3/raw/v3.1.5/d3.js -O d3.js
+    wget https://github.com/mbostock/d3/raw/v3.1.5/d3.min.js -O d3.min.js
     popd
     #Edit changelog, setup.py for versions, etc
-    git commit -a -m "Updated for release 3.0.5"
+    git commit -a -m "Updated for release 3.1.5"
     git push
